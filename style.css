@@ -1,0 +1,105 @@
+body {
+    background-image: url("2.jpg");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    color: gold;
+    background-color: black;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    border-color: black;
+}
+.topleftpanel {
+    width: 33.33%;
+    height: 10%;
+    float: left;
+    background-image: url("resort.png");
+    border-collapse: collapse;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+}
+.topmiddlepanel {
+    width: 33.33%;
+    height: 10%;
+    float: left;
+    background-image: url("bed.png");
+    border-collapse: collapse;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+}
+.toprightpanel {
+    width: 33.33%;
+    height: 10%;
+    position: relative;
+    float: right;
+    background-image: url("contact-mail.png");
+    border-collapse: collapse;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+}  
+.leftpanel {
+    width: 33.33%;
+    height: 60%;
+    float: left;
+    background-color: transparent;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+.middlepanel {
+    width: 33.33%;
+    height: 60%;
+    float: left;
+    background-color: transparent;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+.rightpanel {
+    width: 33.33%;
+    height: 60%;
+    position: relative;
+    float: right;
+    background-color: transparent;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}  
+a {
+    font-size: 50px;
+    font-family: 'Courier New';
+    color: black;
+}
+.bottompanel {
+    width: 100%;
+    height: 30%;
+    float: left;
+    background-color: transparent;
+    border-collapse: collapse;
+    text-align: center;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 5px;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+}
